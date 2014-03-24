@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Template.$1.submit = function(values, form, e, tmpl){
+	$2
+};
+]]></content>
+	<tabTrigger>submit</tabTrigger>
+	<scope>source.js</scope>
+	<description>Template.myTemplate.submit = fn()</description>
+</snippet>

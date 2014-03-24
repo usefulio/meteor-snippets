@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Template.$1.validations = {
+	$2: "$3"
+};
+]]></content>
+	<tabTrigger>validations</tabTrigger>
+	<scope>source.js</scope>
+	<description>Template.myTemplate.validations = {}</description>
+</snippet>
