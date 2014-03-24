@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-destroyed = function ($1) {
+Template.$1.destroyed = function () {
 	${2:// ...}
 };
 ]]></content>

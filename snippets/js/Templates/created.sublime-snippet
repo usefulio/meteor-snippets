@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-created = function ($1) {
+Template.$1.created = function () {
 	${2:// ...}
 };
 ]]></content>

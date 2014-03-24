@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-helpers({
-	${1:foo}: function ($2) {
+Template.$1.helpers({
+	${2:foo}: function () {
 		${3:// ...}
 	}
 });

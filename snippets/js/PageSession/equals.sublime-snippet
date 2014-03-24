@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+pageSession.equals(${1:key}, ${2:value});
+]]></content>
+	<tabTrigger>pageSession.equals</tabTrigger>
+	<scope>source.js</scope>
+	<description>Meteor: pageSession.equals(key, value)</description>
+</snippet>

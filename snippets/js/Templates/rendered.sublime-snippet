@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-rendered = function ($1) {
+Template.$1.rendered = function () {
 	${2:// ...}
 };
 ]]></content>
