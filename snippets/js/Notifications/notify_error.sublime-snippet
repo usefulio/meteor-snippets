@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Notify.error('$1', ${2:err.reason});
+]]></content>
+	<tabTrigger>nerror</tabTrigger>
+	<scope>source.js</scope>
+	<description>Notify.error('title', 'description')</description>
+</snippet>

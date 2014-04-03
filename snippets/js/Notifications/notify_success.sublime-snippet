@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Notify.success('$1', '$2');
+]]></content>
+	<tabTrigger>nsuccess</tabTrigger>
+	<scope>source.js</scope>
+	<description>Notify.success('title', 'description')</description>
+</snippet>
