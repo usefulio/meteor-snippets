@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+'submit form': function(e, tmpl) {
+	e.preventDefault()
+
+	var input = Forms.data(e.currentTarget);
+	
+	$1
+}
+]]></content>
+	<tabTrigger>submit</tabTrigger>
+	<scope>source.js</scope>
+	<description>Meteor Template: submit handler</description>
+</snippet>
