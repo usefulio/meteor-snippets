@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+$1Controller = RouteController.extend({
+	waitOn: function(){
+		return this.subscribe('$2', this.params._id);
+	}
+	, data: function(){
+		return {
+			$3
+		};
+	}
+	, action: function(){
+		if(this.ready()) this.render();
+	}
+});
+
+]]></content>
+	<tabTrigger>controller</tabTrigger>
+	<scope>source.js</scope>
+	<description>IronRouter: RouteController</description>
+</snippet>

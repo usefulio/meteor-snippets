@@ -1,11 +1,26 @@
 <snippet>
 	<content><![CDATA[
-'submit form': function(e, tmpl) {
+'submit form$1': function(e, tmpl) {
 	e.preventDefault()
 
-	var input = Forms.data(e.currentTarget);
+	var input = Forms.data(e.currentTarget)
+		, self = this;
 	
-	$1
+	if(!Forms.isValid(input, {
+		$2
+	}
+	)){
+		Notify.error('$3');
+		return;
+	}
+
+	$4.$5($6, function(err, result){
+		if(err){
+			Notify.error('Error updating menu item.', err.reason);
+		}else{
+			$7
+		}
+	});
 }
 ]]></content>
 	<tabTrigger>submit</tabTrigger>
