@@ -2,7 +2,7 @@
 	<content><![CDATA[
 pageSession.set(${1:key}, ${2:value});
 ]]></content>
-	<tabTrigger>pageSession.set</tabTrigger>
+	<tabTrigger>pss</tabTrigger>
 	<scope>source.js</scope>
 	<description>Meteor: pageSession.set(key, value)</description>
 </snippet>

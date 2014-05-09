@@ -2,7 +2,7 @@
 	<content><![CDATA[
 pageSession.get(${1:key});
 ]]></content>
-	<tabTrigger>pageSession.get</tabTrigger>
+	<tabTrigger>psg</tabTrigger>
 	<scope>source.js</scope>
 	<description>Meteor: pageSession.get(key)</description>
 </snippet>
