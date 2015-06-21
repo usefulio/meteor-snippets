@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-stop()
-]]></content>
-	<tabTrigger>stop</tabTrigger>
-	<scope>source.coffee, source.litcoffee</scope>
-	<description>Meteor: this.stop()</description>
-</snippet>

@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-Template.$1.rendered = function () {
+Template.$1.onRendered(function () {
 	${2:// ...}
-};
+});
 ]]></content>
 	<tabTrigger>rendered</tabTrigger>
 	<scope>source.js</scope>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-isSimulation
-]]></content>
-	<tabTrigger>isSimulation</tabTrigger>
-	<scope>source.coffee, source.litcoffee</scope>
-	<description>Meteor: this.isSimulation</description>
-</snippet>

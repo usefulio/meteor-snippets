@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-Meteor.user()
-]]></content>
-	<tabTrigger>Meteor.user</tabTrigger>
-	<scope>source.coffee, source.litcoffee</scope>
-	<description>Meteor.user()</description>
-</snippet>

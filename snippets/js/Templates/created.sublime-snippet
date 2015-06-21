@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-Template.$1.created = function () {
+Template.$1.onCreated(function () {
 	${2:// ...}
-};
+});
 ]]></content>
 	<tabTrigger>created</tabTrigger>
 	<scope>source.js</scope>

@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-Template.$1.destroyed = function () {
+Template.$1.onDestroyed(function () {
 	${2:// ...}
-};
+});
 ]]></content>
 	<tabTrigger>destroyed</tabTrigger>
 	<scope>source.js</scope>

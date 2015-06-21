@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-findAll '${1:div}'
-]]></content>
-	<tabTrigger>findAll</tabTrigger>
-	<scope>source.coffee, source.litcoffee</scope>
-	<description>Meteor: this.findAll(selector)</description>
-</snippet>
