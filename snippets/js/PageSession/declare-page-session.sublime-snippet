@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var pageSession = new ReactiveDict;
+]]></content>
+	<tabTrigger>vps</tabTrigger>
+	<scope>source.js</scope>
+	<description>Meteor: var pageSession = new ReactiveDict;</description>
+</snippet>

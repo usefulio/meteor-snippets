@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+pageSession
+]]></content>
+	<tabTrigger>ps</tabTrigger>
+	<scope>source.js</scope>
+	<description>Meteor: pageSession.</description>
+</snippet>
